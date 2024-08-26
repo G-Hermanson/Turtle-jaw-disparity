@@ -1,0 +1,78 @@
+Turtle species,Specimen (source),Mandible_length,Mandible_width,Ch1_LWratio,Ch2_AMA,Ch3_PMA,Ch4_OMA,Ch5_SMOI,Ch6_TRIT,primary_diet,specialized_diet,Terrestrial_feeding,habitat,Clade
+Aldabrachelys_gigantea,ZMB 47494,78.87,81.13,NA,0.350308642,0.87757732,0.173251029,2.055,0.074910394,herbivorous,high_fiber,yes,terrestrial,Testudinidae
+Amyda_cartilaginea,FMNH 244117,73.45,57.7,NA,0.461229718,0.959325044,0.219641332,1.112941176,0.214389535,carnivorous,suction,no,freshwater,Trionychia
+Apalone_mutica,FHSM herp 2746,46.15,35.35,NA,0.336296296,0.892383292,0.226296296,1.097046414,0.082821119,carnivorous,suction,no,freshwater,Trionychia
+Apalone_spinifera,FMNH 22178,53.06,37.93,NA,0.407554833,0.974174757,0.205036556,0.883820998,0.244784423,carnivorous,suction,no,freshwater,Trionychia
+Batagur_baska,NHMUK 67.9.28.7,63.91,63.85,NA,0.465180467,1.162334218,0.134394904,0.817391304,0.231961722,herbivorous,generalist,no,freshwater,Geoemydidae
+Caretta_caretta,ZMB 25470,147.51,137.03,NA,0.3777,0.759959759,0.2002,0.976863753,0.331907613,carnivorous,durophagous,no,marine,Chelonioidea
+Carettochelys_insculpta,NHMUK 1903.7.10.1,83.47,74.12,NA,0.436363636,0.91646778,0.206022727,0.812407681,0.125933014,omnivorous,generalist,no,freshwater,Trionychia
+Chelodina_oblonga,NHMUK 64.12.22,33.28,27.51,NA,0.476576577,0.860162602,0.115675676,1.033846154,0.036264657,carnivorous,suction,no,freshwater,Chelidae
+Chelonia_mydas,NHMUK 1969.776,125.45,111.01,NA,0.427413984,1.040810811,0.20654828,1.268370607,0.225782689,herbivorous,high_fiber,no,marine,Chelonioidea
+Chelonoidis_niger,ZMB 19103,60,65.6,NA,0.36197479,0.88814433,0.166491597,1.676339286,0.027273585,herbivorous,high_fiber,yes,terrestrial,Testudinidae
+Chelus_fimbriatus,UF 85199,27.84,22.07,NA,0.656919643,0.924502618,0.169270833,0.977083333,0.025550936,carnivorous,suction,no,freshwater,Chelidae
+Chelydra_serpentina,UF 22159,59.87,66.94,NA,0.448014888,0.928277635,0.128039702,0.856958763,0.100224972,omnivorous,generalist,no,freshwater,Chelydroidea
+Chitra_chitra,NHMUK 1926.12.16.1,73.12,48.28,NA,0.323867925,0.884793814,0.280188679,1.155405405,0.04375,carnivorous,suction,no,freshwater,Trionychia
+Trachemys_ornata,NHMUK 76.1.31.19,32.57,33.84,NA,0.410091743,0.93125,0.115412844,0.804123711,0.176103247,omnivorous,generalist,no,freshwater,Emysternia
+Trachemys_terrapen,ZMB 6572,35.31,38,NA,0.431472081,0.913978495,0.167258883,0.659167604,0.154219653,omnivorous,generalist,no,freshwater,Emysternia
+Claudius_angustatus,SMNS 14380,31.04,30.89,NA,0.373837838,0.92459893,0.217945946,0.834291188,0.170520231,carnivorous,generalist,no,freshwater,Chelydroidea
+Clemmys_guttata,FMNH 22114,14.09,13.86,NA,0.362232558,0.865333333,0.122325581,1.502814259,0.049644128,omnivorous,generalist,yes,freshwater,Emysternia
+Cuora_amboinensis,NHMUK 69.42.145,19.75,19.64,NA,0.432889734,1.025675676,0.077471483,1.70657277,0.052608311,omnivorous,generalist,yes,freshwater,Geoemydidae
+Cuora_flavomarginata,FMNH 21515,18.86,17.81,NA,0.416131907,0.947058824,0.106506239,1.495238095,0.070157938,omnivorous,generalist,yes,freshwater,Geoemydidae
+Cuora_mouhotii,SMF71599,24.8,22.42,NA,0.402396313,0.905809129,0.162304147,1.903370787,0.085796862,omnivorous,generalist,yes,terrestrial,Geoemydidae
+Cyclemys_dentata,NHMUK 97.11.22.3,20.79,21.52,NA,0.362653563,0.952258065,0.123341523,1.852777778,0.056050228,omnivorous,generalist,no,freshwater,Geoemydidae
+Cycloderma_frenatum,NHMUK 84.2.4.1,113.18,82.54,NA,0.39013296,1.042056075,0.187823653,1.450549451,0.105791962,carnivorous,suction,no,freshwater,Trionychia
+Deirochelys_reticularia,FMNH 98754,28.75,22.39,NA,0.372440273,0.744880546,0.108788396,1.449691992,0.059793814,carnivorous,generalist,no,freshwater,Emysternia
+Dermatemys_mawii,CM 117802,44,46.08,NA,0.418647343,1.164784946,0.12589372,1.074776786,0.15026738,herbivorous,high_fiber,no,freshwater,Chelydroidea
+Dermochelys_coriacea,UMCZ R 3031,160.46,170.41,NA,0.311896349,1.010687023,0.078798587,1.860082305,0.054515778,carnivorous,generalist,no,marine,Chelonioidea
+Elseya_dentata,NHMUK 76.5.19.77,28.3,28.23,NA,0.470356816,0.982982792,0.142909424,1.211488251,0.112616427,herbivorous,generalist,no,freshwater,Chelidae
+Emydoidea_blandingii,FMNH 22144,28,23.8,NA,0.369702128,0.770212766,0.050808511,1.180803571,0.07879538,carnivorous,generalist,no,freshwater,Emysternia
+Emys_orbicularis,ZMB 39445,25.1,22.13,NA,0.332537577,0.852834467,0.11158267,1.099437148,0.108742714,carnivorous,generalist,yes,freshwater,Emysternia
+Eretmochelys_imbricata,FMNH 22242,80.05,54.68,NA,0.388868043,0.835752688,0.116322702,2.597484277,0.181088825,carnivorous,durophagous,no,marine,Chelonioidea
+Geoemyda_spengleri,FMNH 260381,16.4,13.54,NA,0.319786096,0.766666667,0.134224599,2.106100796,0.064203612,omnivorous,generalist,yes,terrestrial,Geoemydidae
+Glyptemys_insculpta,FMNH 22240,31.19,27.92,NA,0.344682676,0.907223476,0.118353345,1.834269663,0.105873016,omnivorous,generalist,yes,terrestrial,Emysternia
+Gopherus_agassizii,FMNH 216746,29.75,32.01,NA,0.52013809,1.13,0.099654776,1.676056338,0.123393045,herbivorous,high_fiber,yes,terrestrial,Testudinidae
+Gopherus_flavomarginatus,FMNH 98916,33.24,33.29,NA,0.503814714,1.046603774,0.125703906,1.664254703,0.123024639,herbivorous,high_fiber,yes,terrestrial,Testudinidae
+Gopherus_polyphemus,FMNH 211815,46.17,49.84,NA,0.464419087,1.127707809,0.158713693,1.958083832,0.120786517,herbivorous,high_fiber,yes,terrestrial,Testudinidae
+Graptemys_geographica,NHMUK 55.12.6.11,16.84,14.03,NA,0.446194226,1.180555556,0.131583552,0.637605042,0.250992851,carnivorous,durophagous,no,freshwater,Emysternia
+Hardella_thurjii,UMMZ-herps-227976,15,17.85,NA,0.483163265,1.172755418,0.126147959,0.773980154,0.265536723,herbivorous,generalist,no,freshwater,Geoemydidae
+Heosemys_annandalii,FMNH 260389,35.06,38.03,NA,0.390228426,0.915178571,0.172461929,1.010233918,0.161282932,herbivorous,generalist,no,freshwater,Geoemydidae
+Homopus_areolatus,OUMNH 9403,13.8,14.98,NA,0.462439024,1.03890411,0.23597561,2.529411765,0.066591422,herbivorous,generalist,yes,terrestrial,Testudinidae
+Hydromedusa_tectifera,SMF 70500,27.95,22.43,NA,0.474023769,0.801147776,0.156960951,0.915865385,0.075769854,carnivorous,suction,no,freshwater,Chelidae
+Indotestudo_elongata,SMF 71585,34.08,37.67,NA,0.387525355,0.936519608,0.161460446,1.314583333,0.074358974,omnivorous,generalist,yes,terrestrial,Testudinidae
+Kinixys_erosa,SMF 40166,33.15,27.5,NA,0.46196319,0.819751166,0.068711656,1.503896104,0.059934048,omnivorous,generalist,yes,terrestrial,Testudinidae
+Kinosternon_baurii,FMNH 211705,15.86,14.29,NA,0.475282855,0.985740072,0.138816362,1.062228654,0.12489992,omnivorous,generalist,yes,freshwater,Chelydroidea
+Kinosternon_scorpioides,SMF 71893,18.41,20.78,NA,0.454864594,0.912474849,0.132497492,0.907537688,0.130491196,omnivorous,generalist,no,freshwater,Chelydroidea
+Kinosternon_subrubrum,FMNH 211711,17.02,18.61,NA,0.482958801,1.114038877,0.152621723,1.380062305,0.116845878,omnivorous,generalist,yes,freshwater,Chelydroidea
+Lepidochelys_kempii,M009/08,51.89,48.51,NA,0.38460076,0.952,0.120437262,1.569148936,0.215364583,carnivorous,durophagous,no,marine,Chelonioidea
+Lepidochelys_olivacea,SMNS 11070,92.35,87.61,NA,0.405077063,0.913701431,0.104079782,1.280254777,0.247516556,carnivorous,durophagous,no,marine,Chelonioidea
+Macrochelys_temminckii,FMNH 22111,85.33,88.19,NA,0.319065191,0.853289474,0.106642066,1.332653061,0.102455357,carnivorous,generalist,no,freshwater,Chelydroidea
+Malaclemys_terrapin,ZMB 16196,36.2,33.44,NA,0.382386831,1.060730594,0.165925926,0.599531616,0.256023651,carnivorous,durophagous,no,freshwater,Emysternia
+Malacochersus_tornieri,SMF 58702,20.59,20.94,NA,0.409970674,1.0781491,0.164418377,1.505636071,0.129597198,herbivorous,high_fiber,yes,terrestrial,Testudinidae
+Malayemys_subtrijuga,NHMUK 1920.1.20.2545,39.11,30.66,NA,0.377589286,0.732928943,0.153125,1.420353982,0.325738397,carnivorous,durophagous,no,freshwater,Geoemydidae
+Manouria_impressa,SMF 69777,33.72,30.66,NA,0.382726424,0.870276008,0.147338936,2.474842767,0.054658902,omnivorous,generalist,yes,terrestrial,Testudinidae
+Mauremys_leprosa,NHMUK unnumbered,21.29,24.48,NA,0.429252577,1.057460317,0.158762887,0.932692308,0.141627907,omnivorous,generalist,yes,freshwater,Geoemydidae
+Morenia_ocellata,NHMUK 87.3.11.7,28.89,26.57,NA,0.488387716,1.458166189,0.188963532,0.662055336,0.37439222,herbivorous,high_fiber,no,freshwater,Geoemydidae
+Natator_depressus,R112123,118.96,114.04,NA,0.378768956,0.884583333,0.158786798,1.67962963,0.187748608,carnivorous,generalist,no,marine,Chelonioidea
+Notochelys_platynota,FMNH 224048,28.75,34.54,NA,0.430501931,1.130067568,0.19047619,1.703370787,0.062264151,herbivorous,generalist,no,freshwater,Geoemydidae
+Orlitia_borneensis,NHMUK 1949.3.4.29/94.3.4.18,25.98,28.73,NA,0.465006553,1.043529412,0.145347313,1.18899859,0.115535098,omnivorous,generalist,no,freshwater,Geoemydidae
+Pangshura_tecta,NHMUK 1889.2.6.1,27.76,29.9,NA,0.433657588,1.131472081,0.177042802,1.022556391,0.143910806,herbivorous,generalist,no,freshwater,Geoemydidae
+Pelomedusa_subrufa,FMNH 17161,20.33,23.46,NA,0.50733945,1.024074074,0.153109072,0.99031477,0.084705882,carnivorous,generalist,no,freshwater,Pelomedusoides
+Peltocephalus_dumerilianus,NHMUK 60.4.16.9,50.37,40.5,NA,0.416595381,0.90689013,0.198460222,0.941176471,0.117965546,omnivorous,generalist,no,freshwater,Pelomedusoides
+Pelusios_sinuatus,USNM 42144,36.01,41.61,NA,0.451568266,0.845423143,0.172601476,0.877390326,0.131088561,carnivorous,generalist,no,freshwater,Pelomedusoides
+Phrynops_hilarii,FMNH 217273,21.86,24.69,NA,0.508854167,1.003080082,0.143229167,0.685560054,0.104804805,carnivorous,suction,no,freshwater,Chelidae
+Platysternon_megacephalum,NCSM 76497,19.6,20.29,NA,0.401920904,0.878271605,0.127457627,1.426307448,0.060292581,omnivorous,generalist,no,freshwater,Emysternia
+Podocnemis_expansa,ZMB 90084,79.1,72.16,NA,0.394056604,0.739292035,0.186226415,0.846673095,0.172641509,herbivorous,generalist,no,freshwater,Pelomedusoides
+Podocnemis_unifilis,FMNH 45657,21.19,18.24,NA,0.448071979,0.847487844,0.211653813,1.009102731,0.11584,herbivorous,generalist,no,freshwater,Pelomedusoides
+Pseudemys_concinna,FMNH 22146,24.24,27.85,NA,0.401081081,1.06,0.15527027,0.888007929,0.212817412,herbivorous,generalist,no,freshwater,Emysternia
+Rhinoclemmys_melanosterna,FMNH 44446,18.05,18.32,NA,0.458591549,0.862897527,0.076431925,1.876033058,0.051187335,herbivorous,generalist,no,freshwater,Geoemydidae
+Rhinoclemmys_rubida,MVZ herps 78373,20.03,20.07,NA,0.40875,0.894947368,0.117884615,1.815789474,0.051929825,omnivorous,generalist,yes,terrestrial,Geoemydidae
+Sacalia_quadriocellata,NCSM 13265,16.93,17.7,NA,0.427547592,0.973979592,0.117357223,1.752860412,0.066772487,omnivorous,generalist,no,freshwater,Geoemydidae
+Staurotypus_salvinii,NHMUK 1879.1.7.5,36.89,37.09,NA,0.433919598,0.990630975,0.117839196,1.054414784,0.15992,carnivorous,durophagous,no,freshwater,Chelydroidea
+Sternotherus_minor,FMNH 211696,20.14,20.37,NA,0.442100372,1.111448598,0.165055762,0.947916667,0.242508418,carnivorous,durophagous,no,freshwater,Chelydroidea
+Terrapene_carolina,OUMNH 8795,20.27,18.09,NA,0.414008811,0.884934087,0.103436123,1.873809524,0.061393443,omnivorous,generalist,yes,terrestrial,Emysternia
+Terrapene_coahuila,FMNH 47372,22.64,20.87,NA,0.359035088,0.745537341,0.147280702,1.365384615,0.084422922,omnivorous,generalist,yes,freshwater,Emysternia
+Terrapene_ornata,FMNH 23014,18.17,15.68,NA,0.425258621,0.851986183,0.132931034,1.757785467,0.071073718,omnivorous,generalist,yes,terrestrial,Emysternia
+Testudo_graeca,ZMB 39442,22.44,22.3,NA,0.474516696,1.056751468,0.125659051,1.590413943,0.097854785,herbivorous,high_fiber,yes,terrestrial,Testudinidae
+Testudo_horsfieldii,OUMNH 10344,19.6,22.8,NA,0.464705882,1.045588235,0.203398693,1.747692308,0.090072639,herbivorous,high_fiber,yes,terrestrial,Testudinidae
+Testudo_marginata,FMNH 51672,25.09,25.45,NA,0.479241877,1.10625,0.141155235,1.460591133,0.094852321,herbivorous,high_fiber,yes,terrestrial,Testudinidae
+Trionyx_triunguis,PCHP 4559,72.38,50.8,NA,0.401416853,0.907757167,0.266442953,2.309677419,0.072209026,carnivorous,suction,no,freshwater,Trionychia

@@ -1,0 +1,410 @@
+#NEXUS
+[written Fri Apr 26 14:24:38 CEST 2024 by Mesquite  version 3.81 (build 955) at geospc045610/134.21.31.61]
+
+BEGIN TAXA;
+	TITLE Taxa;
+	DIMENSIONS NTAX=77;
+	TAXLABELS
+		Chelodina_oblonga Elseya_dentata Chelus_fimbriatus Hydromedusa_tectifera Phrynops_hilarii Pelomedusa_subrufa Pelusios_sinuatus Peltocephalus_dumerilianus Podocnemis_expansa Podocnemis_unifilis Amyda_cartilaginea Apalone_mutica Apalone_spinifera Chitra_chitra Trionyx_triunguis Cycloderma_frenatum Carettochelys_insculpta Rhinoclemmys_rubida Rhinoclemmys_melanosterna Batagur_baska Malayemys_subtrijuga Morenia_ocellata Geoemyda_spengleri Cuora_amboinensis Cuora_flavomarginata Cuora_mouhotii Cyclemys_dentata Mauremys_leprosa Sacalia_quadriocellata Hardella_thurjii Notochelys_platynota Pangshura_tecta Orlitia_borneensis Heosemys_annandalii Gopherus_agassizii Gopherus_flavomarginatus Gopherus_polyphemus Manouria_impressa Indotestudo_elongata Malacochersus_tornieri Testudo_graeca Testudo_horsfieldii Testudo_marginata Aldabrachelys_gigantea Chelonoidis_niger Homopus_areolatus Kinixys_erosa Platysternon_megacephalum Trachemys_ornata Deirochelys_reticularia Graptemys_geographica Malaclemys_terrapin Trachemys_terrapen Clemmys_guttata Emys_orbicularis Emydoidea_blandingii Glyptemys_insculpta Pseudemys_concinna Terrapene_carolina Terrapene_coahuila Terrapene_ornata Dermatemys_mawii Claudius_angustatus Staurotypus_salvinii Kinosternon_baurii Kinosternon_scorpioides Kinosternon_subrubrum Sternotherus_minor Chelydra_serpentina Macrochelys_temminckii Caretta_caretta Chelonia_mydas Eretmochelys_imbricata Lepidochelys_olivacea Lepidochelys_kempii Natator_depressus Dermochelys_coriacea 
+	;
+
+END;
+
+
+BEGIN CHARACTERS;
+	TITLE  Character_Matrix;
+	DIMENSIONS  NCHAR=51;
+	FORMAT DATATYPE = STANDARD RESPECTCASE GAP = - MISSING = ? SYMBOLS = "  0 1 2 3 4 5 6 7 8";
+	CHARSTATELABELS 
+		1 'Dentaries, medial contact of right and left dentary rami' /  'fused ( 0 )' 'the mandibular rami are sutured to one another ( 1 )',
+		2 'Dentary, dorsally ascending process of the dentary along the anterior margin of the coronoid process' /  'absent ( 0 )' 'present ( 1 )',
+		3 'Dentary, width of triturating surface vs. jaw length' /  'narrow triturating surface (measured at symphysis), less than 1/3 of jaw length ( 0 )' 'broad triturating surface at symphysis, ≥1/3 jaw length ( 1 )',
+		4 'Dentary, symphyseal ridge' /  'absent ( 0 )' 'present ( 1 )',
+		5 'Dentary, posterior end of symphysis with dorsally raised tubercle' /  'absent ( 0 )' 'present ( 1 )',
+		6 'Dentaries, hook development' /  'absent, labial margin is curved and low at symphyseal end ( 0 )' 'the anterior labial margin is upcurved, but not pointed ( 1 )' 'the anterior labial margin is upcurved, and forms a pointed symphyseal hook ( 2 )',
+		7 'Dentary, labial ridge' /  'absent ( 0 )' 'present ( 1 )',
+		8 'Dentary, expansion of lingual margin' /  'absent ( 0 )' 'lingual margin is medially expanded to a shelf, which often is broader along the central part of the mandibular ramus than near the coronoid and symphyseal ends ( 1 )',
+		9 'Dentary, shape of lingual margin' /  'blunt, surface slopes medioventrally, no sharp edge or lingual ridge is formed ( 0 )' 'lingual margin has a sharp edge, but no dorsally protruding ridge ( 1 )' 'lingual margin has a sharp edged, dorsally protruding lingual ridge ( 2 )',
+		10 'Dentary, lingual ridge extension' /  'extends along entire lingual dentary side until very shortly before the symphysis ( 0 )' 'limited to posterior two-thirds of triturating surface, with prominent anterior hiatus in ridge ( 1 )',
+		11 'Dentary, accessory longitudinal ridge' /  'absent ( 0 )' 'present, accessory ridge trends anteroposteriorly, near-parallel to the labial and lingual jaw margins ( 1 )',
+		12 'Dentary, oblique accessory ridge' /  'absent ( 0 )' 'present, ridge expands across dentary transversely, forming 90° angles to the labial and lingual jaw margins ( 1 )',
+		13 'Dentary, serrations along triturating ridges' /  'absent ( 0 )' 'present ( 1 )',
+		14 Dentary_rhamphotheca_ridge /  'absent ( 0 )' 'present ( 1 )',
+		15 'Dentary, processus dentofacialis' /  'absent ( 0 )' 'present, formed as lateral spike at the posterior end of the triturating surface ( 1 )',
+		16 'Dentary, foramen dentofaciale majus' /  'absent, foramen completely reduced ( 0 )' 'small, size of a small vessel ( 1 )' 'enlarged, foramen is several mm in diameter ( 2 )',
+		17 'Dentary, foramen dentofaciale majus position' /  'within the anterior margin of the adductor fossa ( 0 )' 'clearly anteriorly removed from the adductor fossa ( 1 )',
+		18 'Dentary, small posterior ramus extending dorsally above the foramen auriculotemporalis, thereby framing the foramen dorsally, anteriorly, and ventrally by the dentary' /  'absent ( 0 )' 'present ( 1 )',
+		19 'Surangular, anterior surangular process' /  'absent ( 0 )' 'present, process deeply expands into a posterior bifurcation of the dentary along the lateral surface of the mandible ( 1 )',
+		20 'Surangular, with anteromedial process forming a vertical lamina that projects anteriorly into fossa Meckelii' /  'absent ( 0 )' 'present ( 1 )',
+		21 'Surangular-prearticular contact along the anterior margin of the dorsal opening into the fossa Meckelii, excluding the coronoid from the foramen' /  'absent, coronoid forms anterior margin ( 0 )' 'present ( 1 )',
+		22 Dorsal_surangular_foramen /  'absent ( 0 )' 'present ( 1 )',
+		23 Adductor_fossa_ridge_on_coronoid /  'coronoid without strong anterodorsal ridge on lateral side, even if adductor fossa extends onto coronoid ( 0 )' 'anterodorsal surface of coronoid has a strong ridge that forms the margin of the adductor fossa ( 1 )',
+		24 'Coronoid, anteromedial process' /  'absent ( 0 )' 'present ( 1 )',
+		25 'Coronoid, contribution to triturating surface' /  'absent ( 0 )' 'present ( 1 )',
+		26 Coronoid_process /  'relatively low, dorsally well rounded or flat ( 0 )' 'relatively high, process is dorsally or posterodorsally pointed ( 1 )',
+		27 'Coronoid, notch on posterior margin of coronoid' /  'absent ( 0 )' 'present ( 1 )',
+		28 'Coronoid, posteromedial process of coronoid' /  'short or virtually absent ( 0 )' 'extends along the medial margin of the dorsal opening of the fossa Meckelii, partially or fully excluding the prearticular from forming its margin ( 1 )',
+		29 Postcoronoid_bones /  'unfused ( 0 )' 'fused, the articular, surangular, prearticular, and angular form a single unit ( 1 )',
+		30 'Prearticular-surangular contact at the posterior end of the fossa Meckelii' /  'absent, the dorsal opening to the fossa Meckelii remains posteriorly open toward the mandibular articulation surface or the articular extends anteriorly into the margin of the fossa ( 0 )' 'present, the dorsal opening to the fossa Meckelii is posteriorly closed by a surangular-prearticular contact ( 1 )',
+		31 Subdivision_of_dorsal_opening_into_the_fossa_Meckelii /  'single opening ( 0 )' 'opening subdivided anteroposteriorly by a transverse contact of the prearticular and surangular ( 1 )',
+		32 'Prearticular, exposure of foramen alveolare inferius in medial view' /  'absent, the foramen is covered by expansions of the prearticular and/or coronoid ( 0 )' 'present, the foramen can be seen in medial view ( 1 )',
+		33 'Prearticular, anteroventral process below the Meckelian groove/foramen intermandibulare medius' /  'absent ( 0 )' 'present, prearticular has anterior bifurcation into a dorsal and a ventral ramus ( 1 )',
+		34 'Ventral prearticular-dentary contact' /  'absent ( 0 )' 'present. Note this is scored as inapplicable when an anteroventral process of the prearticular is absent ( 1 )',
+		35 Anterior_intermandibular_foramen /  'absent ( 0 )' 'present, fully or partially formed between the angular and prearticular along their anterior processes ( 1 )',
+		36 'Prearticular, presence of posterior or joint single intermandibular foramen' /  'absent ( 0 )' 'present ( 1 )',
+		37 Prearticular_foramen /  'absent ( 0 )' 'present ( 1 )',
+		38 'Prearticular-coronoid contact' /  'present and extensive, along the medial wall of the fossa Meckelii ( 0 )' 'strongly reduced to a point contact or entirely absent ( 1 )',
+		39 'Angular, posterior end' /  'the angular is posteriorly expanded, forming a transversely and dorsally concave laminar surface that buttresses the remaining posterior mandibular elements ( 0 )' 'the angular is posteriorly markedly unexpanded, and does not form a ventral cover to the remaining mandibular elements ( 1 )',
+		40 Splenial /  'present ( 0 )' 'absent ( 1 )',
+		41 Splenial_foramen /  'absent ( 0 )' 'present ( 1 )',
+		42 'Articular/Prearticular, chorda tympani canals and foramina' /  'present, a canal extends from the periphery of the articular into the fossa Meckelii ( 0 )' 'absent, canal completely reduced ( 1 )',
+		43 Posterior_chorda_tympani_foramen /  'located within the articular notch on the posterior surface of the articular ( 0 )' 'located on the posteromedial jaw surface, usually on the prearticular or prearticular-articular contact ( 1 )',
+		44 'Articular, dorsal articular fossa immediately anteriorly to mandibular articulation' /  'absent ( 0 )' 'present ( 1 )',
+		45 'Prearticular-articular, posteroventral end' /  'without any retroarticular process ( 0 )' 'retroarticular process is formed as a relatively short, dorsally slightly recured lip of bone at the posteromedial end of the mandibular ramus ( 1 )' 'retroarticular process is fromed as a posteroventral boss ( 2 )' ' retroarticular process is formed as a posteriorly elongate shelf, which exceeds the anteroposterior length of the articulation facet ( 3 )',
+		46 'Articular, articulation surface for quadrate' /  'flat, concave, or biconcave ( 0 )' 'convex hemispheral condyle is formed ( 1 )',
+		47 'Articulation facet, contribution of surangular' /  'absent, surangular completely retracted from articulation facet ( 0 )' 'surangular forms lateral margin of articulation facet, but without a flange ( 1 )' 'surangular forms prominent lateral ectocondyle flange, expanding the articulation surface laterally ( 2 )',
+		48 'Articulation facet, contribution of prearticular' /  'absent, prearticular completely retracted from articulation facet ( 0 )' 'prearticular forms small medial portion of articulation facet ( 1 )',
+		49 'Ch 26, Coronoid foramen' /  absent 'present, at anterior end',
+		50 'Ch 27, Coronoid process, principally formed by' /  coronoid dentary surangular,
+		51 'Ch 39, Prearticular, position of the posterior or joint single interm foramen' /  fully_within_prearticular 'in the angular-prearticular suture' fully_in_the_angular ; 
+	MATRIX
+	Chelodina_oblonga           100000000-00000110000101000000000--1010010100011001
+	Elseya_dentata              000000112000000110000001000000000--1000010100021011
+	Chelus_fimbriatus           100000000-000000-0000000000000000--1011001-12100111
+	Hydromedusa_tectifera       100000000-00000110000001000000000--1010000112100001
+	Phrynops_hilarii            100100011-00000110000001000000000--1010010112100101
+	Pelomedusa_subrufa          1000021020000011100-1101000011010--100-1-11021--001
+	Pelusios_sinuatus           000001111-100011100-100100001100101100-1-11021--001
+	Peltocephalus_dumerilianus  0000021120000011100-1001000011010--000-1-11010--10-
+	Podocnemis_expansa          000001111-100001101-1001100011010--010-1-11021--10-
+	Podocnemis_unifilis         000001111-100001101-100110001100101110-1-11021--101
+	Amyda_cartilaginea          010100010-00000100010001110001010--10001-0103020001
+	Apalone_mutica              010000010-00000100000001111000010--00001-010302000-
+	Apalone_spinifera           010000010-00000100000001111000010--00001-010302000-
+	Chitra_chitra               010000101-000000-0010001110001010--00001-010302000-
+	Trionyx_triunguis           010000010-00000100000001110000010--00001-010302000-
+	Cycloderma_frenatum         010000000-000000-0010001110001110--11001-0003020101
+	Carettochelys_insculpta     010000000-00000200010011111000010--00001-010302100-
+	Rhinoclemmys_rubida         000001100-000001000001000000000111011001-0101021000
+	Rhinoclemmys_melanosterna   000000100-000001000001000000000111110001-0101021001
+	Batagur_baska               001001112-111102000001101001000110010001-0001010-01
+	Malayemys_subtrijuga        001002011-000002010101101111010111100011-0101010-0-
+	Morenia_ocellata            001102111-101102010000101001000111010011-0001010-01
+	Geoemyda_spengleri          000002100-000001010001100001000111110011-0001020001
+	Cuora_amboinensis           000000100-000002000101000001000111110011-0001011001
+	Cuora_flavomarginata        000000001-000001010001000001000111110011-0001011000
+	Cuora_mouhotii              000100001-000001010001000000000111110011-0001011001
+	Cyclemys_dentata            000000100-000001010001000001000111010001-0001011001
+	Mauremys_leprosa            000000111-000002000001000001000111110011-0001011001
+	Sacalia_quadriocellata      000000000-000001010001000001000111010011-0001011001
+	Hardella_thurjii            000002110-111002000001000000000110010011-0001011001
+	Notochelys_platynota        000002100-000001000000000000000111110011-0001011001
+	Pangshura_tecta             0000111020001002000001000000000111010011-0001011001
+	Orlitia_borneensis          0000021020000002010001000011000111010011-0001011001
+	Heosemys_annandalii         000001110-001102000001000000000111011011-0000011001
+	Gopherus_agassizii          0000001020001001000000000001000011110001-0101021001
+	Gopherus_flavomarginatus    0000001020001001000000000001000011110001-0101021000
+	Gopherus_polyphemus         0000001020001001000000010001000011111001-0101021001
+	Manouria_impressa           0000011020000001000000010001000011110011-0001021001
+	Indotestudo_elongata        0000011121000012001000000000000011111011-0100011001
+	Malacochersus_tornieri      0000011121000011000000000001000011111011-0100011001
+	Testudo_graeca              0000011121000011000000000000010011111001-0000021000
+	Testudo_horsfieldii         0000011121000011000000000000000011010001-0000011000
+	Testudo_marginata           0000011121000011001000010000010010010011-0000011000
+	Aldabrachelys_gigantea      0001011020001011001100000000000011011001-0000021001
+	Chelonoidis_niger           0000011020001011001100000001000111111001-0000021001
+	Homopus_areolatus           000000101-000001000000000000000111111011-0100021001
+	Kinixys_erosa               000000100-000001001000000000000010010001-0100021001
+	Platysternon_megacephalum   000002100-000001010101000000000010011011-0000021001
+	Trachemys_ornata             0000021020001002100001010001000110011011-0001021001
+	Deirochelys_reticularia     000002100-000002110001010000000110011011-0001011001
+	Graptemys_geographica       001001011-000002110001010110000110011011-0001020001
+	Malaclemys_terrapin         000002011-000002110001110110000110011011-0001021001
+	Trachemys_terrapen          0001011120100002110001110110000110011011-0001021001
+	Clemmys_guttata             000002100-000012000101010000010110010011-0101020001
+	Emys_orbicularis            000002100-000012000101010001010110011011-0101020001
+	Emydoidea_blandingii        000001100-000012000001010001010110011011-0001021001
+	Glyptemys_insculpta         000002101-000012110001010001000010010011-0001010001
+	Pseudemys_concinna          000101100-101002110101011001000110010011-0101021001
+	Terrapene_carolina          000002101-000011010001000001010110011011-0101020001
+	Terrapene_coahuila          000001101-000011000101010001010010011011-0101020001
+	Terrapene_ornata            000002101-000011010001000001010110011011-0101020001
+	Dermatemys_mawii            0001011020111112000000000000000010011001-0001021111
+	Claudius_angustatus         000000011-000011000000010000010000000001-010210002-
+	Staurotypus_salvinii        000001111-000001000001010000000110110001-0000011011
+	Kinosternon_baurii          001001011-000001010001010001000110110011-0000020111
+	Kinosternon_scorpioides     000001011-000001010001010001000110110011-0000021110
+	Kinosternon_subrubrum       000000011-000001010001110111000110110011-0000010011
+	Sternotherus_minor          001001111-000001010001000100000110111001-0001021012
+	Chelydra_serpentina         0000021020000011000100010000000110110001-0001021001
+	Macrochelys_temminckii      000002111-000011000100010000000110111001-0001021001
+	Caretta_caretta             001000001-00000210110000000100000--10001-1-01021101
+	Chelonia_mydas              000111101-10100210100000100100000--00001-1-0102010-
+	Eretmochelys_imbricata      000010102000000210100000000101000--10001-1-01020101
+	Lepidochelys_olivacea       001011101-00000200110000000100000--01001-1-0102110-
+	Lepidochelys_kempii         001011101-00000200110000000101000--11001-1-01021101
+	Natator_depressus           000111102000100210110000000100000--11001-1-01021101
+	Dermochelys_coriacea        000001100-000000--11-00--00-0--00---0-01-1----00-1-
+
+;
+
+END;
+BEGIN TREES;
+	Title 'Trees from "Matrix_and_optimization_tree.nex"';
+	ID 018201565af81;
+	LINK Taxa = Taxa;
+	TRANSLATE
+[0] 		1 Chelodina_oblonga,
+[1] 		2 Elseya_dentata,
+[2] 		3 Chelus_fimbriatus,
+[3] 		4 Hydromedusa_tectifera,
+[4] 		5 Phrynops_hilarii,
+[5] 		6 Pelomedusa_subrufa,
+[6] 		7 Pelusios_sinuatus,
+[7] 		8 Peltocephalus_dumerilianus,
+[8] 		9 Podocnemis_expansa,
+[9] 		10 Podocnemis_unifilis,
+[10] 		11 Amyda_cartilaginea,
+[11] 		12 Apalone_mutica,
+[12] 		13 Apalone_spinifera,
+[13] 		14 Chitra_chitra,
+[14] 		15 Trionyx_triunguis,
+[15] 		16 Cycloderma_frenatum,
+[16] 		17 Carettochelys_insculpta,
+[17] 		18 Rhinoclemmys_rubida,
+[18] 		19 Rhinoclemmys_melanosterna,
+[19] 		20 Batagur_baska,
+[20] 		21 Malayemys_subtrijuga,
+[21] 		22 Morenia_ocellata,
+[22] 		23 Geoemyda_spengleri,
+[23] 		24 Cuora_amboinensis,
+[24] 		25 Cuora_flavomarginata,
+[25] 		26 Cuora_mouhotii,
+[26] 		27 Cyclemys_dentata,
+[27] 		28 Mauremys_leprosa,
+[28] 		29 Sacalia_quadriocellata,
+[29] 		30 Hardella_thurjii,
+[30] 		31 Notochelys_platynota,
+[31] 		32 Pangshura_tecta,
+[32] 		33 Orlitia_borneensis,
+[33] 		34 Heosemys_annandalii,
+[34] 		35 Gopherus_agassizii,
+[35] 		36 Gopherus_flavomarginatus,
+[36] 		37 Gopherus_polyphemus,
+[37] 		38 Manouria_impressa,
+[38] 		39 Indotestudo_elongata,
+[39] 		40 Malacochersus_tornieri,
+[40] 		41 Testudo_graeca,
+[41] 		42 Testudo_horsfieldii,
+[42] 		43 Testudo_marginata,
+[43] 		44 Aldabrachelys_gigantea,
+[44] 		45 Chelonoidis_niger,
+[45] 		46 Homopus_areolatus,
+[46] 		47 Kinixys_erosa,
+[47] 		48 Platysternon_megacephalum,
+[48] 		49 Chrysemys_picta,
+[49] 		50 Deirochelys_reticularia,
+[50] 		51 Graptemys_geographica,
+[51] 		52 Malaclemys_terrapin,
+[52] 		53 Trachemys_terrapen,
+[53] 		54 Clemmys_guttata,
+[54] 		55 Emys_orbicularis,
+[55] 		56 Emydoidea_blandingii,
+[56] 		57 Glyptemys_insculpta,
+[57] 		58 Pseudemys_concinna,
+[58] 		59 Terrapene_carolina,
+[59] 		60 Terrapene_coahuila,
+[60] 		61 Terrapene_ornata,
+[61] 		62 Dermatemys_mawii,
+[62] 		63 Claudius_angustatus,
+[63] 		64 Staurotypus_salvinii,
+[64] 		65 Kinosternon_baurii,
+[65] 		66 Kinosternon_scorpioides,
+[66] 		67 Kinosternon_subrubrum,
+[67] 		68 Sternotherus_minor,
+[68] 		69 Chelydra_serpentina,
+[69] 		70 Macrochelys_temminckii,
+[70] 		71 Caretta_caretta,
+[71] 		72 Chelonia_mydas,
+[72] 		73 Eretmochelys_imbricata,
+[73] 		74 Lepidochelys_olivacea,
+[74] 		75 Lepidochelys_kempii,
+[75] 		76 Natator_depressus,
+[76] 		77 Dermochelys_coriacea;
+	TREE 'optimization tree++++' = ((((1,2),((3,5),4)),((6,7),(8,(9,10)))),(((((11,(12,13)),(14,15)),16),17),(((((18,19),((((20,22),21),23),((((24,26),25),28),(27,29)))),(((35,(36,37)),38),(((47,45),(44,46)),((39,40),((43,41),42))))),((((((51,52),53),49),50),(((((59,60),61),54),55),57)),48)),(((62,((63,64),(((65,67),66),68))),(69,70)),(((((74,75),71),73),(76,72)),77)))));
+
+END;
+
+
+BEGIN ASSUMPTIONS;
+	TYPESET * UNTITLED   =  unord:  1- 5 7- 8 10- 15 17- 46 48- 51, ord:  6-9\3 16 47;
+
+END;
+
+BEGIN MESQUITECHARMODELS;
+	ProbModelSet * UNTITLED   =  'Mk1 (est.)':  1- 51;
+END;
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1714134278305;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 2983043435375488250;
+			tell It;
+				setDefaultOrder  1 3 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 41 42 30 31 32 33 34 39 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 61 62 59 62 57 62 63 64 65 66 67 68 71 72 73 73 74 75 76 77 78 79 80 111;
+				attachments ;
+			endTell;
+		endTell;
+		getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			setID 0 4529168714944031483;
+			mqVersion 381;
+			checksumv 0 3 2473779606 null  getNumChars 51 numChars 51 getNumTaxa 77 numTaxa 77   short true   bits 15   states 15   sumSquaresStatesOnly 9456.0 sumSquares 9456.0 longCompressibleToShort false usingShortMatrix true   NumFiles 1 NumMatrices 1;
+			mqVersion;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState false false 5;
+			setPopoutState 400;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 1707 841;
+			setLocation -8 -8;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		getEmployee  #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord;
+		tell It;
+			showDataWindow #4529168714944031483 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1702 769;
+					setLocation -8 -8;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					endTell;
+					setActive;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					colorCells  #mesquite.charMatrices.NoColor.NoColor;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames off;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges on;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleReduceCellBorders off;
+					toggleAutoWCharNames on;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleColorOnlyTaxonNames off;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					toggleShowPaleExcluded off;
+					togglePaleInapplicable on;
+					togglePaleMissing off;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize on;
+					toggleColorsPanel off;
+					toggleDiagonal on;
+					setDiagonalHeight 80;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.AlterData.AlterData;
+				tell It;
+					toggleBySubmenus off;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor;
+				tell It;
+					makeWindow;
+					tell It;
+						setExplanationSize 30;
+						setAnnotationSize 20;
+						setFontIncAnnot 0;
+						setFontIncExp 0;
+						setSize 1702 769;
+						setLocation -8 -8;
+						setFont SanSerif;
+						setFontSize 10;
+						getToolPalette;
+						tell It;
+							setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam;
+						endTell;
+						rowsAreCharacters on;
+						toggleConstrainChar on;
+						toggleConstrainCharNum 3;
+						togglePanel off;
+						toggleSummaryPanel off;
+					endTell;
+					showWindow;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor;
+				tell It;
+					panelOpen true;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+end;
+
+
