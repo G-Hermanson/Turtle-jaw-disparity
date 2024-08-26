@@ -1,4 +1,4 @@
-# Code and data associated with Ponstein et al. "Functional and character disparity are decoupled in turtle mandibles"
+# Code and data associated with Ponstein et al. _"Functional and character disparity are decoupled in turtle mandibles"_
 
 ## This repository includes:
 - input data for analyses (i.e., raw data of biomechanical measurements, character-state matrix)
